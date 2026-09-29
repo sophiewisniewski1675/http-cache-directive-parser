@@ -1,0 +1,14 @@
+[project]
+name = "http-cache-directive-parser"
+version = "0.1.0"
+description = "Parse the Cache-Control header into a structured dictionary of directives with parameters."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
